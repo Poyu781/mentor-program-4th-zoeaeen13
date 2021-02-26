@@ -136,7 +136,7 @@ $ git log
 #### Q: 一定要經過兩步驟才能存放到儲存區（Repository）？一定要輸入 commit 訊息？
 要完成 commit 指令才算是完成整個流程，而 commit 都只會處理暫存區（Staging Area）裡的內容
 * 預設一定要輸入訊息才能 commit，如不想輸入訊息可加上 `--allow-empty-message` 參數(通常不會這樣做)
-* `git add -am "message"` 是合併 `git add` 和 `git commit` 兩者的好用指令
+* `git commit -am "message"` 是合併 `git add` 和 `git commit` 兩者的好用指令
 
 #### Q: 如何刪除檔案？
 在 Git 裡，不管是刪除檔案或是變更檔名，對 Git 來說都是一種「修改」
